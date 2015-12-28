@@ -73,7 +73,7 @@ for (var i = 0; i < combinations.length; i++) {
   }
   if (isNaN(smallest))
     smallest = sum;
-  else if (sum < smallest)
+  else if (sum > smallest)
     smallest = sum;
 }
 
